@@ -63,11 +63,11 @@ namespace motorbit {
         if (motor == MotorbitCarMotor.MotorA) {
             pins.digitalWritePin(DigitalPin.P0, 1)
             pins.digitalWritePin(DigitalPin.P1, 1)
-            pins.analogWritePin(AnalogPin.P8, 1023)
+            pins.analogWritePin(AnalogPin.P8, 255)
         } else {
             pins.digitalWritePin(DigitalPin.P2, 1)
             pins.digitalWritePin(DigitalPin.P13, 1)
-            pins.analogWritePin(AnalogPin.P15, 1023)
+            pins.analogWritePin(AnalogPin.P15, 255)
         }
     }
 }
